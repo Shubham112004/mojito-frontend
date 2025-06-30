@@ -16,7 +16,7 @@ const App = () => {
 	const isMobile = useMediaQuery({ maxWidth: 767 }); // or 640 depending on your design
 
 	return (
-		<main className="relative">
+		<main>
 			{isMobile ? (
 				<div className="fixed inset-0 z-[9999] bg-black text-white flex flex-col items-center justify-center px-6 text-center">
 					<h1 className="text-2xl sm:text-3xl font-bold mb-4">Heads up! 📱</h1>
